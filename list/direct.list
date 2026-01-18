@@ -86,6 +86,9 @@ DOMAIN-SUFFIX,maa.plus
 
 # DNS
 DST-PORT,853
+PROCESS-NAME,q
+PROCESS-NAME,smartdns
+PROCESS-NAME,mosdns
 DOMAIN,v.recipes
 DOMAIN,dns.adguard-dns.com
 DOMAIN,dns.decloudus.com
