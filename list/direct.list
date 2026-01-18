@@ -1,0 +1,93 @@
+# Download Program
+PROCESS-NAME,aria2c
+PROCESS-NAME,aria2c.exe
+PROCESS-NAME,baidunetdisk.exe
+PROCESS-NAME,DownloadService.exe
+PROCESS-NAME,fdm.exe
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,Thunder.exe
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper
+PROCESS-NAME,Weiyun.exe
+DOMAIN-KEYWORD,aria2
+DOMAIN-KEYWORD,xunlei
+DOMAIN-KEYWORD,yunpan
+DOMAIN-KEYWORD,Thunder
+DOMAIN-KEYWORD,XLLiveUD
+
+# Tracker
+DOMAIN-SUFFIX,dmhy.best
+DOMAIN-SUFFIX,openbittorrent.com
+DOMAIN-SUFFIX,itzmx.com
+DOMAIN-SUFFIX,publicbt.com
+DOMAIN-SUFFIX,prq.to
+DOMAIN-SUFFIX,acgtracker.com
+DOMAIN-SUFFIX,rhcloud.com
+DOMAIN-SUFFIX,bangumi.moe
+DOMAIN-SUFFIX,awesome-hd.me
+DOMAIN-SUFFIX,broadcasthe.net
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,classix-unlimited.co.uk
+DOMAIN-SUFFIX,empornium.me
+DOMAIN-SUFFIX,gazellegames.net
+DOMAIN-SUFFIX,hdchina.org
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,icetorrent.org
+DOMAIN-SUFFIX,jpopsuki.eu
+DOMAIN-SUFFIX,keepfrds.com
+DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,nanyangpt.com
+DOMAIN-SUFFIX,ncore.cc
+DOMAIN-SUFFIX,open.cd
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,passthepopcorn.me
+DOMAIN-SUFFIX,privatehd.to
+DOMAIN-SUFFIX,redacted.ch
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-SUFFIX,tjupt.org
+DOMAIN-SUFFIX,totheglory.im
+DOMAIN-KEYWORD,tracker
+URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)
+
+# 国内流氓
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+
+# Node Direct
+DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,leigod.com
+DOMAIN-SUFFIX,wz22.cc
+DOMAIN-SUFFIX,n3ko.co
+
+# 国内直连
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,tencentyun.com
+
+# 全球直连
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,alij.ne.jp
+DOMAIN-SUFFIX,payment-gateway.asia
+DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,downloadmirror.intel.com
+DOMAIN-SUFFIX,letsencrypt.org
+DOMAIN-SUFFIX,ghproxy.net
+DOMAIN-SUFFIX,pmang.cloud
+DOMAIN,prts.plus
+DOMAIN-SUFFIX,maa.plus
+
+# DNS
+DST-PORT,853
+DOMAIN,0ms.dev
+DOMAIN,dns.decloudus.com
+DOMAIN,wikimedia-dns.org
+DOMAIN,private.canadianshield.cira.ca
+DOMAIN,dns.controld.com
