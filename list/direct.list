@@ -86,8 +86,11 @@ DOMAIN-SUFFIX,maa.plus
 
 # DNS
 DST-PORT,853
-DOMAIN,0ms.dev
+DOMAIN,v.recipes
+DOMAIN,dns.adguard-dns.com
 DOMAIN,dns.decloudus.com
 DOMAIN,wikimedia-dns.org
+DOMAIN,doh.applied-privacy.net
 DOMAIN,private.canadianshield.cira.ca
 DOMAIN,dns.controld.com
+DOMAIN,jp.tiarap.org
