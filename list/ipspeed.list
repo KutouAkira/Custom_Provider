@@ -1,9 +1,5 @@
-DOMAIN-SUFFIX,fast.com
 USER-AGENT,SpeedTest*
-DOMAIN-KEYWORD,speedtest
-DOMAIN-SUFFIX,ooklaserver.net
-DOMAIN-KEYWORD,ookla
-DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipinfo.io
