@@ -14,6 +14,7 @@ URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_no
 # DOMAIN,prts.plus
 # DOMAIN-SUFFIX,maa.plus
 DOMAIN-SUFFIX,agentrouter.org
+DOMAIN-SUFFIX,4bc.cc
 
 # DNS
 DST-PORT,853
