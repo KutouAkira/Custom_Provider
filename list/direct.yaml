@@ -1,0 +1,34 @@
+payload:
+  # Tracker
+  - DOMAIN-KEYWORD,tracker
+  - URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)
+
+  # 全球直连
+  # - DOMAIN-SUFFIX,huggingface.co
+  # - DOMAIN-SUFFIX,alij.ne.jp
+  # - DOMAIN-SUFFIX,payment-gateway.asia
+  # - DOMAIN-SUFFIX,cloudflarestorage.com
+  # - DOMAIN-SUFFIX,downloadmirror.intel.com
+  # - DOMAIN-SUFFIX,letsencrypt.org
+  # - DOMAIN-SUFFIX,ghproxy.net
+  # - DOMAIN-SUFFIX,pmang.cloud
+  # - DOMAIN,prts.plus
+  # - DOMAIN-SUFFIX,maa.plus
+  - DOMAIN,agentrouter.org
+
+  # DNS
+  - DST-PORT,853
+  - PROCESS-NAME,cfnat
+  - PROCESS-NAME,xray
+  - PROCESS-NAME,mihomo
+  - PROCESS-NAME,q
+  - PROCESS-NAME,smartdns
+  - PROCESS-NAME,mosdns
+  - DOMAIN,v.recipes
+  - DOMAIN,dns.adguard-dns.com
+  - DOMAIN,dns.decloudus.com
+  - DOMAIN,wikimedia-dns.org
+  - DOMAIN,doh.applied-privacy.net
+  - DOMAIN,private.canadianshield.cira.ca
+  - DOMAIN,dns.controld.com
+  - DOMAIN,jp.tiarap.org
